@@ -16,7 +16,7 @@ class Hero extends React.Component {
                 <canvas></canvas>
                 <div className="HeroContent col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
                     <h1>
-                        <span className="normal"> Whats up!, my name is </span><span className="yellow">Tawhid Ali</span><span className="normal">. Software Engineer with a passion for</span> <span className="yellow"> Web Development</span><span className="normal">!</span></h1>
+                        <span className="normal"> Hello World, My name is </span><span className="yellow">Tawhid Ali</span><span className="normal">. Software Engineer with a passion for</span> <span className="yellow"> Web Development</span><span className="normal">!</span></h1>
                     <a href="#projects">View my work <span className="fas fa-arrow-right"></span></a>
                 </div>
 
