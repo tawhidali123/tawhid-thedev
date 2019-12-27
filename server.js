@@ -1,9 +1,9 @@
 "use strict"
 const express = require("express"),
       router = require("./routes/routes.js"),
-      host ="127.0.0.1";
+      host ="0.0.0.0";
       
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 const app = express();
 
