@@ -41,14 +41,13 @@ class Social extends React.Component{
       function draw(shift) {
         let w = canvas.width;
         let h = canvas.height;
-        shift = shift >= 500*Math.PI ? shift - 100*Math.PI : shift;
+        shift = shift >= 300*Math.PI ? shift - 100*Math.PI : shift;
         ctx.clearRect(0, 0, w, h);
         let grd = ctx.createLinearGradient(0, 0, w, h);
-        grd.addColorStop(0, '#324D5C');
-        grd.addColorStop(.33, "#f0ca4d");
-        grd.addColorStop(.5, "#f0ca4d");
-        grd.addColorStop(.66, "#f0ca4d");
-        grd.addColorStop(1, '#324D5C');
+        grd.addColorStop(0, '#eb5757');
+        grd.addColorStop(.5, "#000");
+        grd.addColorStop(.75, '#eb5757');
+
         ctx.strokeStyle = grd;
 
         ctx.lineCap = "square";

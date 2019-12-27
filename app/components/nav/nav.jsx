@@ -19,8 +19,13 @@ const Navigation = (props) => {
                 <div className="nav-left">
                     <p className="full-name h1">
                         <a href="#header">
-                            <span className="first-name">Z</span>
+                            <span className="first-name hide-mobile">Tawhid Ali</span>
+                            <span className="first-name hide-desktop">TA</span>
+                            {/* <span className="last-name">S</span>
+                            <span className="first-name"></span>
                             <span className="last-name">S</span>
+                            <span className="first-name"></span>
+                            <span className="last-name">S</span> */}
                         </a>
                     </p>
                 </div>
@@ -53,12 +58,12 @@ const Navigation = (props) => {
 
                                 <div className="right">
                                     <div>
-                                        <a href="mailto:ziaulsarker@gmail.com">                            
+                                        <a href="mailto:tawhidali126@gmail.com?subject=Hello Tawhid">                            
                                             <span className="mail fas fa-envelope"></span>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="tel:6462837989">
+                                        <a href="tel:3473074531">
                                             <span className="phone fas fa-mobile-alt"></span>
                                         </a>
                                     </div>

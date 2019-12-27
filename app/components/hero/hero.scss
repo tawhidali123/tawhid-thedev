@@ -11,7 +11,7 @@ canvas {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: #000;
     background-blend-mode: multiply,multiply;
 }
 
@@ -31,16 +31,16 @@ canvas {
         text-align: center;
         margin: -60px auto 60px;
         font-size: 2.3rem;
-        color: #324D5C;
-        text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+        color: #fff;
+
 
         @media(min-width: 768px){
             font-size: 3rem;
         }
 
         span.yellow{
-
-            background:#F0CA4D;
+            // background:#fff;
+            // color: #eb5757
         }
     }
 
@@ -50,11 +50,11 @@ canvas {
     a{
         font-size: 16px;
         text-decoration: none;
-        color:#F0CA4D;
+        color:#fff;
         padding: 12px 24px;
         display: inline-block;
         font-family: 'Roboto Mono', monospace;
-        background: #324D5C;
+        background: #eb5757;
         box-shadow: 0px 0 0 0 #324D5C inset; 
 
         border-radius: 50px;
@@ -74,9 +74,9 @@ canvas {
 
         &:hover{
             padding-right: 50px;
-            background: #F0CA4D;
-            box-shadow: 250px 0 0 0 #F0CA4D inset; 
-            color: #324D5C;
+            background: #fff;
+            box-shadow: 250px 0 0 0 #eb5757 inset; 
+            color: #eb5757 ;
             font-weight: 600;
             box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 

@@ -1,5 +1,5 @@
 .footer{
-    background: rgba(#222, 0.9);
+    background: #000;
 }
 
 .footer-container{
@@ -45,7 +45,7 @@
             &:hover{
                 span{
                     &:before{
-                        color: #F0CA4D;
+                        color: #eb5757;
                     }
                 }  
             }
@@ -71,4 +71,3 @@
         }
     }
 }
-

@@ -16,7 +16,7 @@ class Hero extends React.Component {
                 <canvas></canvas>
                 <div className="HeroContent col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
                     <h1>
-                        <span className="normal"> Hello, I'm </span><span className="yellow">Tawhid Ali</span><span className="normal">. Software Engineer with a passion for</span> <span className="yellow"> Web Development</span><span className="normal">!</span></h1>
+                        <span className="normal"> Whats up!, my name is </span><span className="yellow">Tawhid Ali</span><span className="normal">. Software Engineer with a passion for</span> <span className="yellow"> Web Development</span><span className="normal">!</span></h1>
                     <a href="#projects">View my work <span className="fas fa-arrow-right"></span></a>
                 </div>
 
@@ -43,14 +43,13 @@ class Hero extends React.Component {
             y: undefined
         }
 
-        let maxRadius = 40;
+        let maxRadius = 30;
         //let minRadius = 4;
 
         let colorArray = [
             'rgba(34,34,34, 0.66)',
             '#fff',
-            '#324D5C',
-            '#F0CA4D',
+            '#eb5757',
         ];
 
         window.addEventListener('mousemove', function(event) {

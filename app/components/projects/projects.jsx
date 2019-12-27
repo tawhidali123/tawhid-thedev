@@ -6,101 +6,20 @@ import "style-loader!css-loader!sass-loader!./projects.scss";
 
 const projects = [
     {
-        name : `Health Coach Institute`,
-        link : `https://www.healthcoachinstitute.com/`,
+        name : `Income-Expense Planner`,
+        link : `https://tawhidali123.github.io/monthly_planner/`,
         img : {
-            src : `${ path.resolve(__dirname, "/public/img/hci.png" )}`,
-            alt : `Health Coach Institute`
+            src : `${ path.resolve(__dirname, "/public/img/expense-planner.png" )}`,
+            alt : `Income Expense`
         }
     },
 
     {
-        name : `Sentinel Data Centers`,
-        link : `https://www.sentineldatacenters.com/`,
+        name : `Memory Game`,
+        link : `https://tawhidmemorygame.herokuapp.com/`,
         img : {
-            src : `${ path.resolve(__dirname, "/public/img/sentinel.png" )}`,
-            alt : `Sentinel Data Centers`
-        }
-    },
-
-    {
-        name : `Buechel Stone`,
-        link : `https://www.buechelstone.com/`,
-        img : {
-            src : `${ path.resolve(__dirname, "/public/img/buechel.png" )}`,
-            alt : `Buechel Stone`
-        }
-    },
-
-    {
-        name : `Navatar Group`,
-        link : `https://www.navatargroup.com/`,
-        img : {
-            src : `${ path.resolve(__dirname, "/public/img/navatar.png" )}`,
-            alt : `Navatar Group`
-        }
-    },
-
-    {
-        name : `HCI Live`,
-        link : `https://www.hcilive.com/`,
-        img : {
-            src : `${ path.resolve(__dirname, "/public/img/hcilive.png" )}`,
-            alt : `HCI Live`
-        }
-    },
-
-    {
-        name : `Functional Nutrition Alliance`,
-        link : `https://signup.fxnutrition.com/`,
-        img : {
-            src : `${ path.resolve(__dirname, "/public/img/fxna.png" )}`,
-            alt : `Functional Nutrition Alliance`
-        }
-    },
-
-    {
-        name : `Wilbur Ellis`,
-        link : `https://www.wilburellis.com/`,
-        img : {
-            src : `${ path.resolve(__dirname, "/public/img/wilbur.png" )}`,
-            alt : `Wilbur Ellis`
-        }
-    },
-
-    {
-        name : `National Holdings`,
-        link : `https://www.yournational.com/`,
-        img : {
-            src : `${ path.resolve(__dirname, "/public/img/national.png" )}`,
-            alt : `National Holdings`
-        }
-    },
-
-    {
-        name : `Health Coach Match`,
-        link : `https://www.healthcoachmatch.com/`,
-        img : {
-            src : `${ path.resolve(__dirname, "/public/img/match.png" )}`,
-            alt : `Health Coach Match`
-        }
-    },
-
-    {
-        name : `Gilbert Displays`,
-        link : `http://www.gilbertexperience.com/`,
-        img : {
-            src : `${ path.resolve(__dirname, "/public/img/gilbert.png" )}`,
-            alt : `Gilbert Displays`
-        }
-    },
-
-    {
-        name : `Be Ready Long Island`,
-        link : `https://www.bereadyli.org/`,
-        img : {
-            src : `${ path.resolve(__dirname, "/public/img/bereadyli.png" )}`,
-            alt : `Be Ready Long Island`
+            src : `${ path.resolve(__dirname, "/public/img/memory-game.png" )}`,
+            alt : `Memory Game`
         }
     },
 
@@ -112,6 +31,25 @@ const projects = [
             alt : `Github Cards`
         }
     },
+
+    {
+        name : `FitAli`,
+        link : `https://fitali.netlify.com/`,
+        img : {
+            src : `${ path.resolve(__dirname, "/public/img/fitali.png" )}`,
+            alt : `HCI Live`
+        }
+    },
+
+    {
+        name : `ALLHDD`,
+        link : `https://www.allhdd.com/`,
+        img : {
+            src : `${ path.resolve(__dirname, "/public/img/allhdd.png" )}`,
+            alt : `HCI Live`
+        }
+    },
+
 ];
 
 

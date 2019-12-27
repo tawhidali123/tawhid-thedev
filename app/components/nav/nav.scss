@@ -28,7 +28,7 @@
     p.full-name{
         font-family: 'Inconsolata', monospace;
         font-weight: 600;
-        color: #324D5C;
+        color: #fff;
         text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
@@ -69,12 +69,12 @@
         transition: 0.25s linear;
 
         &:hover{
-            background:#F0CA4D;
+            background:#eb5757;
             box-shadow: 0 8px 6px -6px #222;
         }
 
         a{
-            color: #324D5C;
+            color: #fff;
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
@@ -90,7 +90,7 @@
         box-shadow: none;
         position: relative;
         overflow: hidden;
-        background: linear-gradient(to right, #222 50%, #fff 50%);
+        background: linear-gradient(to right, #eb5757 50%, #fff 50%);
         padding: 12px 24px;
         border-radius: 50px;
         background-size: 200%;
@@ -98,14 +98,11 @@
         transition: all 0.35s linear;
         text-transform: uppercase;
         font-family: 'Roboto Mono',  monospace;
-        border: 2px solid #222;
-        box-shadow: 0 8px 6px -6px #222;
+    
 
         &:hover{
             background-position-x: 100%;
-            box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
-            0 5px 15px 0 rgba(0,0,0,0.08);
-            border: 2px solid #324D5C;
+
 
             .copy{
                 transform: translateX(-200%);
@@ -144,7 +141,7 @@
             justify-content: center;
             align-items: center;
             transition: 0.35s linear all;
-            background: rgba(240,202,77, .9);
+            background: #fff;
 
 
             span{
@@ -152,7 +149,7 @@
                 margin: 0 7.5px;
 
                 &::before{
-                    color: #324D5C;
+                    color: #eb5757;
                     font-size: 1.25rem;
                 }
 
@@ -168,19 +165,13 @@ p.full-name{
 }
 
 span.first-name{
-    color: #F0CA4D;
+    color: #fff;
 }
 
 span.last-name{
-    color: #F0CA4D;
+    color: #eb5757;
 }
 
-
-
-// modal css
-.contact-modal{
-
-}
 
 
 .contact-modal-close{
@@ -200,7 +191,7 @@ span.last-name{
     &:hover{
         box-shadow: none;
         text-shadow: none;
-        color: #F0CA4D;
+        color: #eb5757;
         opacity: 1;
 
     }
@@ -224,13 +215,9 @@ span.last-name{
 }
 
 
-.contact-modal-wrapper{
-
-}
-
 .contact-modal-body{
     @media(min-width: 768px){
-        border: 5px solid #f0ca4d;
+        border: 5px solid #eb5757;
     }
 }
 
@@ -281,7 +268,7 @@ span.last-name{
 
         & > div{
             padding: 50px 15px;
-            background:#324D5C;
+            background:#eb5757;
             cursor: pointer;
             position: relative;
             transition: all 0.25s linear;
@@ -301,7 +288,7 @@ span.last-name{
                         background-color: rgba(255,255,255, 1);
                         opacity: 1;
                         visibility: visible;
-                        border: 2px solid #324D5C;
+                        border: 2px solid #fff;
                     }
                 }
             }
@@ -372,9 +359,24 @@ span.last-name{
     width: 100%;
     z-index: 100;
     background: #fff;
+    
+    .nav-right .nav-item a,
+    .nav-left .full-name span.first-name{
+        color: #000000
+    }
+
 
 }
 
-.sticky + .nav {
 
+.hide-mobile {
+    @media(max-width: 639px){
+        display: none;
+    }
+}
+
+.hide-desktop {
+    @media(min-width: 640px){
+        display: none;
+    }
 }

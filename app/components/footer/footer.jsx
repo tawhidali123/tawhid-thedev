@@ -4,15 +4,16 @@ import React, { Component } from "react";
 import "style-loader!css-loader!sass-loader!./footer.scss";
 
 const Footer = (props) => {
+    let date = new Date().getFullYear()
     return(
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-wrapper">
                     <ul>
-                        <li><a href="https://github.com/ziaulsarker" target="_blank"><span className="fab fa-github-square"></span></a></li>
-                        <li><a href="https://www.linkedin.com/in/ziaul-sarker-58b11374/" target="_blank"><span className="fab fa-linkedin"></span></a></li>
+                        <li><a href="https://github.com/tawhidali123" target="_blank"><span className="fab fa-github-square"></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/tawhid-ali-889a90ba/" target="_blank"><span className="fab fa-linkedin"></span></a></li>
                     </ul>
-                    <p>&copy; 2019 Tawhid Ali</p>
+                    <p>&copy; {date} Tawhid Ali</p>
                 </div>
             </div>
         </footer>
