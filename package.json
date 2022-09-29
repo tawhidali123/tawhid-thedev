@@ -27,7 +27,7 @@
     "@babel/preset-stage-3": "^7.0.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^2.1.1",
-    "d3": "^5.14.2",
+    "d3": "^7.6.1",
     "node-sass": "^4.13.0",
     "sass-loader": "^7.3.1",
     "style-loader": "^0.23.1",
